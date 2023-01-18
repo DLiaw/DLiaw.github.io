@@ -917,3 +917,56 @@ footer {
     top: 50%;
   }
 }
+
+.about-div {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 620px;
+  justify-content: center;
+  align-items: center;
+  background: url('../images/image1.jpg') no-repeat;
+  object-fit: cover !important;
+}
+
+.skills-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.me {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  object-fit: fill;
+}
+
+.pic-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-right: 1px solid white;
+  height: 200px;
+  width: 200px;
+}
+
+.aboutme-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-text-div {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 800px;
+  padding-left: 30px;
+}
+
+.about-text {
+  color: rgb(223, 223, 223);
+}
